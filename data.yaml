@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['ID-detected', 'No ID']
+
+roboflow:
+  workspace: karunya-4nn5p
+  project: id-card-detection-aj99u
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/karunya-4nn5p/id-card-detection-aj99u/dataset/1
